@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666780426850' stop='1666780438091'>
+    <name>Open LogIn Page</name>
+    <title>Open LogIn Page</title>
+    <test-cases>
+        <test-case start='1666780426851' status='passed' stop='1666780431181'>
+            <name>Verify Header Text</name>
+            <title>Verify Header Text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 4 API 31(S) 12-12'/>
+                <parameter kind='argument' name='device' value='Pixel 4 API 31(S) 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666780431182' status='passed' stop='1666780438089'>
+            <name>Should not login with invalid credentials</name>
+            <title>Should not login with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 4 API 31(S) 12-12'/>
+                <parameter kind='argument' name='device' value='Pixel 4 API 31(S) 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,6 +1,6 @@
 const LoginScreen = require("../../screenObjects/android/Login.screen");
 const LeftSideMenuScreen = require("../../screenObjects/android/LeftSideMenu.screen")
-//const allureReporter = require('@wdio/allure-reporter').default
+const allureReporter = require('@wdio/allure-reporter').default
 
 describe("Open LogIn Page", () => {
   beforeEach(async () => {
@@ -19,8 +19,8 @@ describe("Open LogIn Page", () => {
       "Provided credentials do not match any user in this service.");
   });
 
-  // it('Case', () => {
-  //   allureReporter.addFeature('Feature')
-  // })
+  it('Case', () => {
+    allureReporter.addFeature('Feature')
+  })
 
 });

@@ -44,7 +44,11 @@ exports.config = {
 
     framework: 'mocha',
 
-    reporters: ['spec'],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+    }]],
 
     // Options to be passed to Mocha.
     mochaOpts: {
@@ -52,5 +56,8 @@ exports.config = {
         timeout: 60000
     },
     //
+    // afterTest: function(test, context,{error, result, duration, passed, retries}) {
+
+    // }
 
 }
